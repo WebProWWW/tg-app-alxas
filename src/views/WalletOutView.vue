@@ -244,10 +244,6 @@ function saveNewCrypt(): void {
 
             <div class="card" v-if="isAddNewCrypt">
                 <div class="card-body">
-                    <div class="fs-12px mb-2">
-                        Введите сумму
-                    </div>
-
                     <div class="input">
                         <input type="text" class="input-value-20" v-model="inputNewCrypt" placeholder="TEfRpTn63me6ZupXubdeHhwsTR5oKiGoCC">
                         <div class="input-btn fs-20px color-purple" @click="saveNewCrypt">
